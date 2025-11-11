@@ -1,0 +1,31 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`NewTodoForm > matches snapshot 1`] = `
+<DocumentFragment>
+  <form
+    class="form-inline"
+  >
+    <div
+      class="form-control full-width"
+    >
+      <label
+        for="_r_1_"
+      >
+        New Todo
+      </label>
+      <input
+        id="_r_1_"
+        name="task"
+        placeholder="Walk the dog"
+        type="text"
+        value=""
+      />
+    </div>
+    <button
+      type="submit"
+    >
+      Add Todo
+    </button>
+  </form>
+</DocumentFragment>
+`;

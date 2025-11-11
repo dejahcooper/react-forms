@@ -1,0 +1,65 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`NewBoxForm > matches snapshot 1`] = `
+<DocumentFragment>
+  <form
+    class="form-grid"
+  >
+    <div
+      class="form-control"
+    >
+      <label
+        for="_r_3_"
+      >
+        Width (px)
+      </label>
+      <input
+        id="_r_3_"
+        min="1"
+        name="width"
+        placeholder="e.g. 150"
+        type="number"
+        value=""
+      />
+    </div>
+    <div
+      class="form-control"
+    >
+      <label
+        for="_r_4_"
+      >
+        Height (px)
+      </label>
+      <input
+        id="_r_4_"
+        min="1"
+        name="height"
+        placeholder="e.g. 150"
+        type="number"
+        value=""
+      />
+    </div>
+    <div
+      class="form-control"
+    >
+      <label
+        for="_r_5_"
+      >
+        Background Color
+      </label>
+      <input
+        aria-label="Pick a color"
+        id="_r_5_"
+        name="backgroundColor"
+        type="color"
+        value="#000000"
+      />
+    </div>
+    <button
+      type="submit"
+    >
+      Add Box
+    </button>
+  </form>
+</DocumentFragment>
+`;

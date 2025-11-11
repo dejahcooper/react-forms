@@ -1,0 +1,33 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Todo > matches snapshot 1`] = `
+<DocumentFragment>
+  <li
+    class="todo-item"
+    data-testid="todo-item-todo-1"
+  >
+    <p
+      data-testid="todo-task"
+    >
+      Test task
+    </p>
+    <div
+      class="todo-actions"
+    >
+      <button
+        class="secondary"
+        type="button"
+      >
+        Edit
+      </button>
+      <button
+        aria-label="Remove todo"
+        class="danger"
+        type="button"
+      >
+        X
+      </button>
+    </div>
+  </li>
+</DocumentFragment>
+`;

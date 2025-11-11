@@ -1,0 +1,149 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App > matches snapshot 1`] = `
+<DocumentFragment>
+  <main
+    class="app"
+  >
+    <header
+      class="app-header"
+    >
+      <h1>
+        React Forms Practice
+      </h1>
+      <p>
+        Color boxes on the left, todos on the right — all powered by controlled inputs.
+      </p>
+    </header>
+    <div
+      class="panels"
+    >
+      <section
+        aria-label="Color box maker"
+        class="panel box-panel"
+      >
+        <header>
+          <h2>
+            Color Box Maker
+          </h2>
+          <p>
+            Create colorful boxes and remove them when you're done.
+          </p>
+        </header>
+        <form
+          class="form-grid"
+        >
+          <div
+            class="form-control"
+          >
+            <label
+              for="_r_4_"
+            >
+              Width (px)
+            </label>
+            <input
+              id="_r_4_"
+              min="1"
+              name="width"
+              placeholder="e.g. 150"
+              type="number"
+              value=""
+            />
+          </div>
+          <div
+            class="form-control"
+          >
+            <label
+              for="_r_5_"
+            >
+              Height (px)
+            </label>
+            <input
+              id="_r_5_"
+              min="1"
+              name="height"
+              placeholder="e.g. 150"
+              type="number"
+              value=""
+            />
+          </div>
+          <div
+            class="form-control"
+          >
+            <label
+              for="_r_6_"
+            >
+              Background Color
+            </label>
+            <input
+              aria-label="Pick a color"
+              id="_r_6_"
+              name="backgroundColor"
+              type="color"
+              value="#000000"
+            />
+          </div>
+          <button
+            type="submit"
+          >
+            Add Box
+          </button>
+        </form>
+        <div
+          aria-live="polite"
+          class="box-grid"
+        >
+          <p
+            class="empty-state"
+          >
+            No boxes yet — add one above.
+          </p>
+        </div>
+      </section>
+      <section
+        aria-label="Todo manager"
+        class="panel todo-panel"
+      >
+        <header>
+          <h2>
+            Todo List
+          </h2>
+          <p>
+            Track tasks, edit them, and remove what's done.
+          </p>
+        </header>
+        <form
+          class="form-inline"
+        >
+          <div
+            class="form-control full-width"
+          >
+            <label
+              for="_r_7_"
+            >
+              New Todo
+            </label>
+            <input
+              id="_r_7_"
+              name="task"
+              placeholder="Walk the dog"
+              type="text"
+              value=""
+            />
+          </div>
+          <button
+            type="submit"
+          >
+            Add Todo
+          </button>
+        </form>
+        <p
+          class="empty-state"
+        >
+          No todos yet — add your first one above.
+        </p>
+      </section>
+    </div>
+  </main>
+</DocumentFragment>
+`;

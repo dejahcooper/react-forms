@@ -1,0 +1,49 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TodoList > matches snapshot 1`] = `
+<DocumentFragment>
+  <section
+    aria-label="Todo manager"
+    class="panel todo-panel"
+  >
+    <header>
+      <h2>
+        Todo List
+      </h2>
+      <p>
+        Track tasks, edit them, and remove what's done.
+      </p>
+    </header>
+    <form
+      class="form-inline"
+    >
+      <div
+        class="form-control full-width"
+      >
+        <label
+          for="_r_1_"
+        >
+          New Todo
+        </label>
+        <input
+          id="_r_1_"
+          name="task"
+          placeholder="Walk the dog"
+          type="text"
+          value=""
+        />
+      </div>
+      <button
+        type="submit"
+      >
+        Add Todo
+      </button>
+    </form>
+    <p
+      class="empty-state"
+    >
+      No todos yet — add your first one above.
+    </p>
+  </section>
+</DocumentFragment>
+`;
